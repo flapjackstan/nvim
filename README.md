@@ -1,4 +1,13 @@
 # Setup
+## Requirements
+- `neovim`
+- `nodejs`
+## Steps
+1. In your home directory create a folder called `.config`.
+2. Inside of that clone this repo.
+3. Run `nvim .` inside that repo for the initial install to happen
+   
+# Notes
 I followed this post to setup neovim plugins
 
 https://dev.to/slydragonn/ultimate-neovim-setup-guide-lazynvim-plugin-manager-23b7
