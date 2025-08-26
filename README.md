@@ -27,6 +27,7 @@ It seems like for any plugin I want to add i have to make a `package.lua` file i
 - General neovim keymappings go into the `init.lua` file
 - Tab and ShiftTab switch buffers (aka tabs)
 - `:vs` creates a vertical split. ctrl-w h or l switches focus.
+- `Mason` is a package manager that lets you download a `lsp` server for autocomplete
 
 # Todo
 - Setup VS Code like autocompletes for python and sql
