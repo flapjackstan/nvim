@@ -2,6 +2,7 @@
 ## Requirements
 - `neovim`
 - `nodejs`
+- `npm`
 ## Steps
 1. In your home directory create a folder called `.config`.
 2. Inside of that clone this repo.
