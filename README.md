@@ -3,7 +3,10 @@
 - `neovim`
 - `nodejs`
 - `npm`
+- hack nerd font
+
 ## Steps
+0. install all requirements.
 1. In your home directory create a folder called `.config`.
 2. Inside of that clone this repo.
 3. Run `nvim .` inside that repo for the initial install to happen
@@ -28,10 +31,11 @@ It seems like for any plugin I want to add i have to make a `package.lua` file i
 - Tab and ShiftTab switch buffers (aka tabs)
 - `:vs` creates a vertical split. ctrl-w h or l switches focus.
 - `Mason` is a package manager that lets you download a `lsp` server for autocomplete
-- Steps for nerdfont
+- Steps for nerdfont on linux
    - Download a Nerd Font
-   - Unzip and copy to ~/.fonts
+   - if on linux Unzip and copy to ~/.fonts, if wsl then left click all fonts and click install
    - Run the command fc-cache -fv to manually rebuild the font cache
+   - in your terminal settings pick downloaded font
 
 # Todo
 - Setup VS Code like autocompletes for python and sql
