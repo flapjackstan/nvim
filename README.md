@@ -30,7 +30,7 @@ It seems like for any plugin I want to add i have to make a `package.lua` file i
 - General neovim keymappings go into the `init.lua` file
 - Tab and ShiftTab switch buffers (aka tabs)
 - `:vs` creates a vertical split. ctrl-w h or l switches focus.
-- `Mason` is a package manager that lets you download a `lsp` server for autocomplete
+- `Mason` is a package manager that lets you download a `lsp` server for autocomplete. I used it to download 'pyright' the python lsp. 'cmp' and 'luasnip' are the neovim ui pieces that display output of the lsp.
 - Steps for nerdfont on linux
    - Download a Nerd Font
    - if on linux Unzip and copy to ~/.fonts, if wsl then left click all fonts and click install
